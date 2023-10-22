@@ -1,0 +1,23 @@
+# Игнорировать директорию виртуального окружения
+myenv/
+
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+*.log
+
+# macOS
+.DS_Store
+
+# Docker
+Dockerfile~
+docker-compose.override.yml
+
+# IDEs
+.idea/
+.vscode/
+
+# MongoDB
+mongodump/
