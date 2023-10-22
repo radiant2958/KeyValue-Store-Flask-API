@@ -8,14 +8,9 @@
 - Вновь созданные объекты должны создаваться, изменяться и читаться из NoSQL DB.
 
 ## Структура проекта
--myapp
-|-- model
-| `-- model.py
-|-- app.py
-|-- run.py
-docker-compose.yml
-Dockerfile
-requirements.txt
+<img width="358" alt="Снимок экрана 2023-10-22 в 17 05 31" src="https://github.com/radiant2958/KeyValue-Store-Flask-API/assets/103328018/5b510f8f-31b7-4cfb-9136-992b13104f5e">
+
+
 ## Описание
 
 - `model.py`: Класс для работы с базой данных MongoDB. Содержит методы для добавления, получения и обновления значений.
@@ -32,23 +27,25 @@ requirements.txt
 
 1. Клонируйте репозиторий:
 
-\```bash
+```bash
 git clone <URL репозитория>
-\```
+```
 
 2. Перейдите в директорию проекта:
 
-\```bash
+```bash
 cd <имя_директории_проекта>
-\```
+```
 
 3. Запустите Docker Compose:
 
-\```bash
+```bash
 docker-compose up
-\```
+```
+
 
 После запуска, Flask API будет доступен на порту 8080.
+
 
 ## API методы
 
